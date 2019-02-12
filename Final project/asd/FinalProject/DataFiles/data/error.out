@@ -1,0 +1,42 @@
+                    ERROR REPORT
+
+ TRANSACTION  TRANSACTION  PAYMENT  STORE   INVOICE          SKU                                                  ERRORS
+    CODE        AMOUNT     TYPE     NUMBER  NUMBER           CODE
+ -----------  -----------  -------  ------  -------          ----
+
+     S              $9.99    CR        1    AS-0000A3    WI8HRW8H43FJSHF                                                                       not alpha or numeric
+     R             $24.99    CR        2    BS-000212                                                                                                                invalid SKU
+     S             $10.08    CW        2    XX-000001    AADFSKJ84MS0913                 Amount not numeric  invalid payment
+     S             $89.99    CR        2    AS-0S0030    WI8HRW8H43FJSHF                                                                       not alpha or numeric
+     X              $9.98    CR        2    AS-000033    WI8HRW8H43FJSHF   invalid code  Amount not numeric
+     R            $124.99    CR        2    AS-000122                                                                                                                invalid SKU
+     X            $149.99    CR        2    AZ-000036    247R20EHF02EF8E   invalid code
+     S             $29.99    DW        2    AS-000037    WI8HRW8H43FJSH2                                     invalid payment
+     R             $24.99    CR        2    AS-000212                                                                                                                invalid SKU
+     S             $29.99    DW        2    AS-000217    WI8HRW8H43FJSHF                                     invalid payment
+     X            $129.99    DB        2    ZZ-000219    247R20EHF02EF8E   invalid code
+     L             $49.99    DB        2    A3-000224    LFW8H88W84HFW4F                                                                       not alpha or numeric
+     S             $20.00    CA        2    X3-000225    SDFSKJ84MS09123                                                                       not alpha or numeric
+     L            $149.99    DB       12    AD-000234    LFW8H88W84HFW4F                                                      invalid store #
+     R             $29.99    CW        2    XX-000335    SDFSKJ84MS09123                                     invalid payment
+     C            $149.99    CR        2    AZ-000336    247R20EHF02EF8E   invalid code
+     R             $24.99    CR       13    AS-000402    FLW8H4FW8H4FWF4                                                      invalid store #
+     S             $10.00    CA       13    XX-000408    SDFSKJ84MS09123                                                      invalid store #
+     R             $24.99    CR        3    B3-000402    FLW8H4FW8H4FWF4                                                                       not alpha or numeric
+     S            $149.99    CR       17    BZ-000406    247R20EHF02EF8E                                                      invalid store #
+     R             $29.99    DB        7    BS-00S407    WI8HRW8H43FJSHF                                                                       not alpha or numeric
+     S             $10.00    CA        7    BX-00S508    SDFSKJ84MS09123                                                                       not alpha or numeric
+     R             $24.99    CR        7    BS-000512                                                                                                                invalid SKU
+     S            $710.08    CW        7    XX-000501    AADFSKJ84MS0913                 Amount not numeric  invalid payment
+     S              $9.98    CR        7    AS-000633    WI8HRW8H43FJSHF                 Amount not numeric
+     R            $124.99    CR        7    AS-000722                                                                                                                invalid SKU
+     X            $149.99    CR        7    AZ-000636    247R20EHF02EF8E   invalid code
+     S             $29.99    DW        7    AS-000637    WI8HRW8H43FJSH2                                     invalid payment
+     R             $24.99    CR        7    AS-000612                                                                                                                invalid SKU
+     R             $24.00    CA        7    XX-00S615    SDFSKJ84MS09123                                                                       not alpha or numeric
+     S             $29.99    DW        7    AS-000617    WI8HRW8H43FJSHF                                     invalid payment
+     W            $129.99    DB        7    ZZ-000619    247R20EHF02EF8E   invalid code
+     S             $10.00    CA        7    X3-000631    SDFSKJ84MS09123                                                                       not alpha or numeric
+     R              $4.99    CR        7    AS-0N0622    F4WO8JFO8W4JFW8                                                                       not alpha or numeric
+     R             $29.99    CW        7    XX-000635    SDFSKJ84MS09123                                     invalid payment
+     X            $149.99    CR        7    AZ-000636    247R20EHF02EF8E   invalid code

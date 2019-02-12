@@ -1,0 +1,2 @@
+D:\School\MAFD\Final project\FProject_test\FProject_test\bin\x86\Debug\FProject_test.exe
+D:\School\MAFD\Final project\FProject_test\FProject_test\obj\x86\Debug\FProject_test.exe

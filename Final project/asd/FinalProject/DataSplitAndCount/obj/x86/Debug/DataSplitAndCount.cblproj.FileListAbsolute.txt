@@ -1,0 +1,2 @@
+C:\Users\Paul Kerrigan\Documents\Durham college\Year 2\Semester 4\MAFD\FinalProject\DataSplitAndCount\bin\x86\Debug\DataSplitAndCount.exe
+C:\Users\Paul Kerrigan\Documents\Durham college\Year 2\Semester 4\MAFD\FinalProject\DataSplitAndCount\obj\x86\Debug\DataSplitAndCount.exe
